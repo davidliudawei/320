@@ -13,14 +13,14 @@ public class BuildApk : Editor
         EditorUserBuildSettings.SwitchActiveBuildTarget(buildTarget);
 
         //// keystore 路径, G:\keystore\one.keystore
-        //PlayerSettings.Android.keystoreName = "G:\\keystore\\one.keystore";
+        PlayerSettings.Android.keystoreName = "F:\\keystore\\user.keystore";
         //// one.keystore 密码
-        //PlayerSettings.Android.keystorePass = "123456";
+        PlayerSettings.Android.keystorePass = "liu120423";
 
         //// one.keystore 别名
-        //PlayerSettings.Android.keyaliasName = "bieming1";
+        PlayerSettings.Android.keyaliasName = "user";
         //// 别名密码
-        //PlayerSettings.Android.keyaliasPass = "123456";
+        PlayerSettings.Android.keyaliasPass = "liu120423";
 
         List<string> levels = new List<string>();
         foreach (EditorBuildSettingsScene scene in EditorBuildSettings.scenes)
