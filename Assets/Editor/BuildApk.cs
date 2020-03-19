@@ -31,7 +31,7 @@ public class BuildApk : Editor
         }
 
         // 打包出 APK 名
-        string apkName = string.Format("./{0}.apk", "woshishui");
+        string apkName = string.Format("./{0}.apk", "woshishuizho");
         // 执行打包
         var res = BuildPipeline.BuildPlayer(levels.ToArray(), apkName, buildTarget, BuildOptions.None);
        
